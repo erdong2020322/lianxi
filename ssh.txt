@@ -1,0 +1,6 @@
+centos7配置ssh总结
+1百度虚拟机安装centos
+2配置：先检测一下有没有ssh安装包 yum  list installed  openssh-server，没有的话就安装,默认是安装的
+  然后配置/etc/ssh/ssh_config文件
+将Port前注释去掉
+之后重启ssh服务 systemctl restart sshd.service
