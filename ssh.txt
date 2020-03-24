@@ -4,3 +4,5 @@ centos7配置ssh总结
   然后配置/etc/ssh/ssh_config文件
 将Port前注释去掉
 之后重启ssh服务 systemctl restart sshd.service
+github的ssh密钥git命令
+生成密钥对（ssh-keygen -t rsa -C "your_email@youremail.com"）
